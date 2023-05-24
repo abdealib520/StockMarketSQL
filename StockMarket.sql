@@ -4,6 +4,7 @@ CREATE TABLE abdeali9.stockmarketprice(
   ,SYMBOL       VARCHAR(10) NOT NULL
   ,CLOSE   		double
   ,PREV_CLOSE   double
+  ,INDEX (DATE,SYMBOL,CLOSE)
 );
 
 CREATE TABLE abdeali9.stockmarkettrade(
@@ -11,6 +12,7 @@ CREATE TABLE abdeali9.stockmarkettrade(
   ,SYMBOL       VARCHAR(10) NOT NULL
   ,VOLUME       double
   ,NO_OF_TRADES double
+  ,INDEX (DATE,SYMBOL,VOLUME)
 );
 
 -- Allowing SQL to read from local data
