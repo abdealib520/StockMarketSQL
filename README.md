@@ -1,5 +1,5 @@
 # StockMarketSQL
-Analyzed Stock Market Data from 2010 to 2020 using MySQL.
+Analyzed Indian Stock Market Data from 2010 to 2020 using MySQL.
 
 # Data Collection
 Data was collected using a python library called jugaad-data.
